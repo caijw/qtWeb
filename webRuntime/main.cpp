@@ -1,11 +1,19 @@
-#include "mainwindow.h"
+#include "browser.h"
 
 #include <QApplication>
+#include <QWebEngineProfile>
+#include <QWebEngineSettings>
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
-    return a.exec();
+    QCoreApplication::setOrganizationName("WebRuntime");
+    QApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+    QApplication app(argc, argv);
+
+    Browser browser;
+    QUrl url = QStringLiteral("https://www.baidu.com");
+
+    WebView *webview = browser.createWebview(url);
+
+    return app.exec();
 }
