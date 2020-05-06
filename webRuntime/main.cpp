@@ -1,8 +1,8 @@
 #include "browser.h"
-
 #include <QApplication>
 #include <QWebEngineProfile>
 #include <QWebEngineSettings>
+#include "runtimeService/service.h"
 
 int main(int argc, char *argv[])
 {
@@ -10,10 +10,12 @@ int main(int argc, char *argv[])
     QApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication app(argc, argv);
 
-    Browser browser;
-    QUrl url = QStringLiteral("https://www.baidu.com");
+    WebRuntime::Browser browser;
+    QUrl url = QStringLiteral("wx://about");
+    WebRuntime::WebView *webview = browser.createWebview(url);
+    WebRuntime::Service &service = WebRuntime::Service::getInstance();
 
-    WebView *webview = browser.createWebview(url);
+    service.hello();
 
     return app.exec();
 }

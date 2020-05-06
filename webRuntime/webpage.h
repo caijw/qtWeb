@@ -3,6 +3,7 @@
 
 #include <QWebEnginePage>
 
+namespace WebRuntime {
 
 class WebPage : public QWebEnginePage
 {
@@ -10,5 +11,9 @@ class WebPage : public QWebEnginePage
 public:
     WebPage(QWebEngineProfile *profile, QObject *parent = nullptr);
 };
+
+}
+
+
 
 #endif // WEBPAGE_H

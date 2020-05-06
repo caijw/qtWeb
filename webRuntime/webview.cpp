@@ -1,12 +1,12 @@
 #include "webview.h"
 
-WebView::WebView(QWidget *parent)
+WebRuntime::WebView::WebView(QWidget *parent)
     : QWebEngineView(parent)
 {
 
 }
 
-void WebView::setPage(WebPage *page)
+void WebRuntime::WebView::setPage(WebPage *page)
 {
     QWebEngineView::setPage(page);
 }

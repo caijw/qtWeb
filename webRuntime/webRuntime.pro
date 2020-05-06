@@ -18,11 +18,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     browser.cpp \
     main.cpp \
+    runtimeService/program.cpp \
+    runtimeService/service.cpp \
+    urlschemehandler.cpp \
     webpage.cpp \
     webview.cpp
 
+
 HEADERS += \
     browser.h \
+    runtimeService/program.h \
+    runtimeService/service.h \
+    urlschemehandler.h \
     webpage.h \
     webview.h
 

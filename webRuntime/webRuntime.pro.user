@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.11.1, 2020-05-04T22:46:43. -->
+<!-- Written by QtCreator 4.11.1, 2020-05-06T11:36:57. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
-  <value type="QByteArray">{34821ffc-d361-4aa4-babc-99238ee16284}</value>
+  <value type="QByteArray">{57263c99-ec23-4421-a320-183750d14531}</value>
  </data>
  <data>
   <variable>ProjectExplorer.Project.ActiveTarget</variable>
@@ -54,7 +54,10 @@
  </data>
  <data>
   <variable>ProjectExplorer.Project.PluginSettings</variable>
-  <valuemap type="QVariantMap"/>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="ClangCodeModel.CustomCommandLineKey"/>
+   <value type="bool" key="ClangCodeModel.UseGlobalConfig">true</value>
+  </valuemap>
  </data>
  <data>
   <variable>ProjectExplorer.Project.Target.0</variable>
@@ -282,19 +285,20 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.Executable"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.CustomExecutableRunConfiguration</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/Users/jingweicai/Documents/code/qtWeb/webRuntime/webRuntime.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/Users/jingweicai/Documents/code/qtWeb/webRuntime/webRuntime.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default"></value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/jingweicai/Documents/code/qtWeb/build-webRuntime-Desktop_Qt_5_14_2_clang_64bit-Debug/webRuntime.app/Contents/MacOS</value>
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>
@@ -304,7 +308,7 @@
   <valuemap type="QVariantMap">
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Qt 5.14.2 for iOS</value>
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Qt 5.14.2 for iOS</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{4d8133c6-4729-4c50-8281-50aea4b72000}</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{67211e88-aebb-4280-adc6-2bda10430011}</value>
    <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
@@ -557,7 +561,7 @@
   <valuemap type="QVariantMap">
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Qt 5.14.2 for iOS Simulator</value>
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Qt 5.14.2 for iOS Simulator</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{200cbb61-1eb4-46d3-a309-e597c412fe0e}</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{6ec2c8f3-57c9-4636-a709-35380fc7feba}</value>
    <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
