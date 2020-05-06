@@ -7,15 +7,18 @@
 
 namespace WebRuntime {
 
+
 class Program
 {
 public:
     Program(std::string id, std::string appid);
+private:
+    std::string wxConfig;
+
 };
 
 
-private:
-    std::string wxConfig;
+
 
 
 }
